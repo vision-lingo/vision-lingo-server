@@ -1,0 +1,10 @@
+[project]
+name = "vision-lingo-server"
+version = "0.1.0"
+description = "Server for vision lingo project"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+]

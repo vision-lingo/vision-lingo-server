@@ -3,8 +3,14 @@ name = "vision-lingo-server"
 version = "0.1.0"
 description = "Server for vision lingo project"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.9"
 dependencies = [
     "fastapi",
     "uvicorn",
+    "sqlalchemy>=2.0",
+    "alembic",
+    "python-dotenv",
+    "pydantic-settings",
+    "pymysql>=1.1.2",
+    "cryptography>=46.0.3",
 ]
